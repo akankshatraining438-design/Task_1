@@ -1,0 +1,5 @@
+chunking strategy
+embedding choice
+confidence logic
+hallucination prevention
+limitations
