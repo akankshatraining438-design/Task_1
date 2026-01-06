@@ -1,0 +1,12 @@
+What Is Retrieval Augmented Generation, or RAG?
+Retrieval augmented generation (RAG) is a hybrid AI framework that bolsters large language models (LLMs) by combining them with external, up-to-date data sources. Instead of relying solely on static training data, RAG retrieves relevant documents at query time and feeds them into the model as context. By incorporating new and context-aware data, AI can generate more accurate, current and domain-specific responses.
+
+RAG is quickly becoming the go-to architecture for building enterprise-grade AI applications. According to recent surveys, over 60% of organizations are developing AI-powered retrieval tools to improve reliability, reduce hallucinations and personalize outputs using internal data.
+
+As generative AI expands into business functions like customer service, internal knowledge management and compliance, RAG’s ability to bridge the gap between general AI and specific organizational knowledge makes it an essential foundation for trustworthy, real-world deployments.
+How RAG works
+RAG enhances a language model’s output by injecting it with context-aware and real-time information retrieved from an external data source. When a user submits a query, the system first engages the retrieval model, which uses a vector database to identify and “retrieve” semantically similar documents, databases or other sources for relevant information. Once identified, it then combines those results with the original input prompt and sends it to a generative AI model, which synthesizes the new information into its own model.
+
+This allows the LLM to produce more accurate, context-aware answers grounded in enterprise-specific or up-to-date data, rather than simply relying upon the model it was trained on.
+
+RAG pipelines typically involve four steps: document preparation and chunking, vector indexing, retrieval and prompt augmentation. This process flow helps developers update data sources without retraining the model and makes RAG a scalable and cost-effective solution for building LLM applications in domains like customer support, knowledge bases and internal search.
